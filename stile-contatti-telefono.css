@@ -1,0 +1,140 @@
+@media screen and (max-width:799px) {
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        /* you can shrink taken width */
+    }
+
+    /*inizio header*/
+    header {
+        z-index: 2;
+        width: 100%;
+        background-color: white;
+        position: block;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+
+    }
+
+    .bar {
+        width: 100%;
+        height: 70px;
+        background-color: white;
+        top: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    .tasto {
+        display: none;
+    }
+
+    #nav_mobile {
+        display: none;
+    }
+
+    .logoHeader {
+        margin-right: auto;
+        margin-left: 5%;
+        height: 100%;
+    }
+
+    .logoHeader img {
+        height: 100%;
+    }
+
+    .nav_links {
+        margin-right: 0px;
+        list-style: none;
+    }
+
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+
+    .nav_links li a {
+        color: #1c1c1c;
+        display: block;
+        font-size: 18px;
+        transition: transform .3s cubic-bezier(0.55, 0, 0.55, 0.2), color .3s cubic-bezier(0.55, 0, 0.55, 0.2);
+    }
+
+    .nav_links li a:hover {
+        transform: scale(1.1);
+        color: #1e78c2;
+    }
+
+    header .pulsante_home {
+        margin-left: 10px;
+        margin-right: 1%;
+    }
+
+    header .pulsante_contatti {
+        margin-left: 10px;
+        margin-right: 5%;
+    }
+
+    header button {
+        padding: 9px 25px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: #1c1c1c;
+        background-color: #1e78c2;
+        border: 1px solid #1e78c2;
+        border-radius: 500px;
+        cursor: pointer;
+    }
+
+    header button:hover {
+        background-color: white;
+        border: 1px solid #1c1c1c;
+        color: #1e78c2;
+    }
+
+    /*fine header*/
+    #contatti-wrapper {
+        position: static;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .contatti {
+        position: static;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contatti iframe {
+        padding: 0 0;
+        margin: 1% auto;
+        margin-top: 50px;
+        width: 85%;
+        height: 350px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .contatti .container-contatti {
+        border-top: 2px dotted #1c1c1c;
+        padding-top: 15px;
+        margin: 25px auto;
+        width: 85%;
+    }
+    .fsotto{
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+
+}

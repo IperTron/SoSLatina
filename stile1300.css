@@ -1,0 +1,45 @@
+@media screen and (min-width: 800px) and (max-width: 1359px){
+    
+
+    /*.container-contatti{
+        height: 260px;
+        width: 30%;
+        margin: 0px auto;
+        padding-top: 20px;
+        padding-bottom: 110px;
+        
+    }*/
+    /*.logo_footer_container{
+        height: 240px;
+        width: 30%;
+        margin: 0px auto;
+        background: none;
+        padding-bottom: 150px;
+    }*/
+   
+    .servizi{
+        height: auto;
+        width: 100%;
+    }
+    .servizi div
+    {
+        flex:40%;
+    }
+    .servizi .servizio{
+        margin: 5%;
+    }
+    #uno{
+        margin-left: 5%;
+    }
+    
+    #tre{
+        margin-right: 5%;
+    }
+    #quattro{
+        margin-left: 5%;
+    }
+    #sei{
+        margin-right: 5%;
+    }
+    
+}
